@@ -1,23 +1,27 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from 'react';
+import Header from './components/header';
+import Body from './components/body';
+import Link from './components/link';
 
 function App() {
+
+  const [content, setContent] = useState('profile');
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="container">
+      <Header>
+        <Link 
+          name="Profile"
+          click={() => setContent('profile')}/>
+        <Link 
+          name="Education"
+          click={() => setContent('education')}/>
+        <Link 
+          name="Experience"
+          click={() => setContent('experience')}/>
+      </Header>
+      <Body 
+        content={content}/>
     </div>
   );
 }

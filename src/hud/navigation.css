@@ -1,0 +1,32 @@
+.nav {
+	display: flex;
+	font-size: 1.4rem;
+	height: 100%;
+	flex-direction: column;
+	text-align: right;
+	align-content: flex-start;
+}
+.nav-list {
+	margin: auto;
+	display: flex;
+	flex-direction: column;
+    line-height: 2.5;
+}
+a.links{
+    position: relative;
+}
+a.links::before{
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0.2rem;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(61, 61, 61, 0.5);
+    visibility: hidden;
+    transition: all 0.2s cubic-bezier(.6,-0.28,.74,.05);
+}
+a.links:hover::before{
+    visibility: visible;
+    width: 100%;
+}

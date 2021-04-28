@@ -1,0 +1,8 @@
+.header {
+	grid-area: sidebar;
+	height: 100%;
+	background: var(--primary);
+}
+@media only screen and (max-width: 400px){
+	
+}

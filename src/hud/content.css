@@ -1,0 +1,15 @@
+.content{
+  padding: 0 2rem;
+}
+.about-content{
+  font-size: 1.7rem;
+}
+.heading{
+  margin: 5rem 0;
+  color: #121212;
+  padding: 0 2rem;
+}
+.heading h1{
+  font: 900 5rem 'Overpass', sans-serif;
+  text-align: right;
+}
