@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/bodybody123.github.io/cv-wulangd/static/css/main.04e71d3d.chunk.css",
+    "main.js": "/bodybody123.github.io/cv-wulangd/static/js/main.cc7f31e9.chunk.js",
+    "main.js.map": "/bodybody123.github.io/cv-wulangd/static/js/main.cc7f31e9.chunk.js.map",
+    "runtime-main.js": "/bodybody123.github.io/cv-wulangd/static/js/runtime-main.12f47e80.js",
+    "runtime-main.js.map": "/bodybody123.github.io/cv-wulangd/static/js/runtime-main.12f47e80.js.map",
+    "static/js/2.8c5328fd.chunk.js": "/bodybody123.github.io/cv-wulangd/static/js/2.8c5328fd.chunk.js",
+    "static/js/2.8c5328fd.chunk.js.map": "/bodybody123.github.io/cv-wulangd/static/js/2.8c5328fd.chunk.js.map",
+    "static/js/3.3f425056.chunk.js": "/bodybody123.github.io/cv-wulangd/static/js/3.3f425056.chunk.js",
+    "static/js/3.3f425056.chunk.js.map": "/bodybody123.github.io/cv-wulangd/static/js/3.3f425056.chunk.js.map",
+    "index.html": "/bodybody123.github.io/cv-wulangd/index.html",
+    "static/css/main.04e71d3d.chunk.css.map": "/bodybody123.github.io/cv-wulangd/static/css/main.04e71d3d.chunk.css.map",
+    "static/js/2.8c5328fd.chunk.js.LICENSE.txt": "/bodybody123.github.io/cv-wulangd/static/js/2.8c5328fd.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.12f47e80.js",
+    "static/js/2.8c5328fd.chunk.js",
+    "static/css/main.04e71d3d.chunk.css",
+    "static/js/main.cc7f31e9.chunk.js"
+  ]
+}
