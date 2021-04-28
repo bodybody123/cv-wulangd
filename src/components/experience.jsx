@@ -4,7 +4,10 @@ function Experience() {
     return (
         <div>
             <ul>
-                <li>Pt. Brilyan Trimatra Utama at Bekasi Barat as Internship</li>
+                <li>
+                    <code>2021</code>
+                    <br/> Pt. Brilyan Trimatra Utama at Bekasi Barat as Internship
+                </li>
             </ul>
         </div>
     );

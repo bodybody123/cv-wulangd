@@ -13,3 +13,13 @@
   font: 900 5rem 'Overpass', sans-serif;
   text-align: right;
 }
+
+@media only screen and (max-width: 768px){
+  .about-content{
+    font-size: 1.2rem;
+  }
+  .heading h1{
+    font-size: 2.5rem;
+    text-align: center;
+  }
+}
