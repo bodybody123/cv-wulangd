@@ -1,0 +1,9 @@
+.social-media{
+    width: 4rem;
+}
+.social-list{
+    display: flex;
+}
+.social-list > li{
+    margin-right: 1rem;
+}
