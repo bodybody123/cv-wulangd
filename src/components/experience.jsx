@@ -6,7 +6,7 @@ function Experience() {
             <ul>
                 <li>
                     <code>2021</code>
-                    <br/> Pt. Brilyan Trimatra Utama at Bekasi Barat as Internship
+                    <br/> Pt. Brilyan Trimatra Utama at Rawa Lumbu as Internship
                 </li>
             </ul>
         </div>

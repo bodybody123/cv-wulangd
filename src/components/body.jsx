@@ -35,7 +35,7 @@ function Body(props) {
                 {header}
             </div>
             <div id="about-content" className="about-content">
-                <div className="text">
+                <div className="text fade-in-fwd" anim={props.anim}>
                     {content}
                 </div>
             </div>

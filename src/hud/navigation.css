@@ -14,6 +14,7 @@
 }
 a.links{
     position: relative;
+    text-transform: capitalize;
 }
 a.links::before{
     content: "";
@@ -31,7 +32,7 @@ a.links:hover::before{
     width: 100%;
 }
 
-@media only screen and (max-width: 400px){
+@media only screen and (max-width: 600px){
     .nav{
         text-align: center;
         align-items: center;

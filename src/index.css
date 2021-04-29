@@ -27,7 +27,7 @@ ol, ul {
 /* Theming purposes */
 :root{
   --bgColor: rgb(255, 255, 255);
-  --primary: rgb(137, 237, 177);
+  --primary: rgb(187, 231, 116);
   --onPrimary: rgb(61, 61, 61);
 }
 *{
@@ -55,7 +55,7 @@ code{
 
 .container {
   display: grid;
-  grid-template-columns: 15% auto;
+  grid-template-columns: 12.5rem auto;
   grid-template-areas: "sidebar main" "sidebar main";
   column-gap: 2rem;
   width: 100vw;
