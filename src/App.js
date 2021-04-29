@@ -18,7 +18,9 @@ function App() {
   let arr = [
     'profile',
     'education',
-    'experience'
+    'experience',
+    'skills',
+    'social'
   ];
 
   let linkLoop = arr.map((val, idx) => {
