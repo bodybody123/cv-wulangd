@@ -1,6 +1,6 @@
 import React from 'react';
 
-function GitHub() {
+function Email() {
     return (
         <a
         href="mailto:wdhanadipa@gmail.com"
@@ -13,4 +13,4 @@ function GitHub() {
     );
 }
 
-export default GitHub;
+export default Email;
