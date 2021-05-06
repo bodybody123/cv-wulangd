@@ -2,7 +2,7 @@ import React from 'react';
 import GitHub from './github';
 import Email from './email';
 
-function Social(){
+function Social() {
     let sos = [
         <GitHub />,
         <Email />
@@ -16,9 +16,8 @@ function Social(){
         )
     })
 
-    return(
+    return (
         <div className="social-container">
-            <h2>Find me on</h2>
             <ul className="social-list">
                 {link}
             </ul>

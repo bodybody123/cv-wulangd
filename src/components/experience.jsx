@@ -2,11 +2,12 @@ import React from 'react';
 
 function Experience() {
     return (
-        <div>
-            <ul className="timeline-container">
-                <li className="timeline">
+        <div className="box experience">
+            <h2>Experience</h2>
+            <ul>
+                <li>
                     <code>2021</code>
-                    <br/> Pt. Brilyan Trimatra Utama at Rawa Lumbu as Internship
+                    <br /> Pt. Brilyan Trimatra Utama at Rawa Lumbu as Internship
                 </li>
             </ul>
         </div>

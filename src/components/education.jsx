@@ -2,7 +2,8 @@ import React from 'react';
 
 function Education() {
     return (
-        <div>
+        <div className="box education">
+            <h2>Education</h2>
             <ul className="timeline-container">
                 <li className="timeline">SMKN 1 Kota Bekasi <code>2019 - Current</code></li>
                 <li className="timeline">SMPN 14 Kota Bekasi <code>2016 - 2018</code></li>

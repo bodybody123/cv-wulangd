@@ -1,45 +1,19 @@
-import React, { useEffect, useState } from 'react';
-import Header from './components/header';
-import Body from './components/body';
-import Link from './components/link';
-
-function App() {
-
-  const [content, setContent] = useState('profile');
-  const [animate, setAnimate] = useState(0);
-
-  useEffect(() => {
-    const interval = setInterval(() => {
-      setAnimate(animate => 0);
-    }, 600);
-    return () => clearInterval(interval);
-  }, []);
-
-  let arr = [
-    'profile',
-    'education',
-    'experience',
-    'skills',
-    'social'
-  ];
-
-  let linkLoop = arr.map((val, idx) => {
-    return <Link 
-              key={idx}
-              name={val}
-              click={() => {
-                setContent(val);
-                setAnimate(1);
-              }}/>
-  });
+import React from 'react';
+import Profile from './components/profile';
+import Education from './components/education';
+import Experience from './components/experience';
+import Skills from './components/skills';
+import Hobby from './components/award';
+import Footer from './components/footer';
+function App(props) {
   return (
     <div className="container">
-      <Header>
-        {linkLoop}
-      </Header>
-      <Body 
-        content={content}
-        anim={animate}/>
+      <Profile />
+      <Education />
+      <Experience />
+      <Skills />
+      <Hobby />
+      <Footer />
     </div>
   );
 }
