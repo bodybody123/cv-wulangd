@@ -5,10 +5,11 @@
     "strict": true,
     "jsx": "react",
     "moduleResolution": "node",
-    "baseUrl": "./",
+    "baseUrl": "src",
     "paths": {
-      "components": ["src/app/components/*"],
-      "app": ["src/app/*"]
+      "app/*": ["app/*"],
+      "components/*": ["app/components/*"]
     }
-  }
+  },
+  "exclude": ["node_modules"]
 }

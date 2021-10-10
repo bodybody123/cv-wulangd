@@ -1,11 +1,15 @@
 import React from 'react';
-import AppBar from '@mui/material/AppBar';
+import Box from '@mui/material/Box';
+import Button from '@mui/material/Button';
 
 const Header = () => {
     return (
-        <AppBar>
-
-        </AppBar>
+        <Box sx={{
+            margin: '2%',
+        }}>
+            <Button variant='text'>Portofolio</Button>
+            <Button variant='text'>Contact</Button>
+        </Box>
     )
 }
 
