@@ -1,13 +1,17 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import './hud/master.css';
-import App from './App';
+import Page from './page';
 import reportWebVitals from './reportWebVitals';
+import { NoSsr } from '@mui/core';
+import { CssBaseline } from '@mui/material';
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
+  <React.StrictMode> 
+    <CssBaseline />
+    <NoSsr>
+      <Page />
+    </NoSsr>
   </React.StrictMode>,
   document.getElementById('root')
 );
