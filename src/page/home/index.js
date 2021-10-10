@@ -117,13 +117,13 @@ const Home = () => {
                 <List>
                     {skillset.map((val, id) => {
                         return (
-                            <ListItem key={id}>
+                            <ListItem key={id} sx={{ justifyContent: 'space-between' }}>
                                 <ListItemText 
-                                    sx={{ width: 'available' }}>
+                                    sx={{ maxWidth: 'max-content' }}>
                                     {val.skill}
                                 </ListItemText>
                                 <ListItemText 
-                                    sx={{ width: 'available' }}>
+                                    sx={{ maxWidth: 'max-content' }}>
                                     {val.years} Years
                                 </ListItemText>
                             </ListItem>
@@ -178,7 +178,11 @@ const Home = () => {
         <Divider />
 
         <Box>
-            <Typography align="center" variant='h3'>Social Media</Typography>
+            <Typography 
+                sx={{ my: '5%' }}
+                align='center'
+                variant='h3'>
+                Social Media</Typography>
             <Box sx={{ m: 'auto', maxWidth:'max-content' }}>
                 <Link href="https://github.com/bodybody123">
                     <GitHubIcon sx={{ fontSize: 64 }}/>
