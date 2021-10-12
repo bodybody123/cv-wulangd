@@ -68,7 +68,7 @@ const Home = () => {
 
                 <Typography
                     variant='body1'
-                    sx={{ fontSize: '2.25rem'   }}>
+                    sx={{ fontSize: '2.25rem', lineHeight: '1.3' }}>
                     I’ve been a web developer for over 3 
                     years working with React.js and 
                     some backend languages like php 
@@ -81,9 +81,8 @@ const Home = () => {
         </Grid>
         <Divider />
 
-        <Box>
+        <Box id='portofolio'>
             <Typography 
-                sx={{ my: '5%' }}
                 variant='h3'>
                 PORTOFOLIO</Typography>
             <Grid container>
@@ -109,9 +108,7 @@ const Home = () => {
         <Divider />
 
         <Box>
-            <Typography 
-                sx={{ my: '5%' }}
-                variant='h3'>
+            <Typography variant='h3'>
                 SKILLSET</Typography>
             <Box>
                 <List>
@@ -134,9 +131,8 @@ const Home = () => {
         </Box>
         <Divider />
 
-        <Box>
+        <Box id='contact'>
             <Typography
-                sx={{ my: '5%' }}
                 align='center'
                 variant='h3'>Interested ?</Typography>
 
@@ -147,7 +143,8 @@ const Home = () => {
                 container 
                 component='form'
                 direction='column'
-                spacing={3} 
+                justifyContent='center'
+                spacing={2}
                 sx={{ 
                     m: 'auto', 
                     maxWidth: '600px'}}>
@@ -179,7 +176,6 @@ const Home = () => {
 
         <Box>
             <Typography 
-                sx={{ my: '5%' }}
                 align='center'
                 variant='h3'>
                 Social Media</Typography>

@@ -5,12 +5,16 @@ import Page from './page';
 import reportWebVitals from './reportWebVitals';
 import { NoSsr } from '@mui/core';
 import { CssBaseline } from '@mui/material';
+import { ThemeProvider }from '@mui/material/styles';
+import theme from 'themes/MuiTheme';
 
 ReactDOM.render(
   <React.StrictMode> 
     <CssBaseline />
     <NoSsr>
-      <Page />
+      <ThemeProvider theme={theme}>
+        <Page />
+      </ThemeProvider>
     </NoSsr>
   </React.StrictMode>,
   document.getElementById('root')

@@ -1,3 +1,6 @@
+html {
+  scroll-behavior: smooth;
+}
 body {
   background-image: url("themes/texture/paper-texture.jpg");
   background-size: cover;
