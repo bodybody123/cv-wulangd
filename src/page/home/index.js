@@ -95,12 +95,17 @@ const Home = () => {
                         alignItems: 'center', 
                         alignContent:'space-around' }}>
 
+                    <figure>
                     <Box sx={{ maxWidth: '260px' }}>
                         <img 
                             src="img/portofolio/1.png" 
                             alt="Peparnas website portal"/>
                     </Box>
-                    <Typography variant='subtitle1'>Peparnas portal website</Typography>
+                    <Typography 
+                        component='figcaption' 
+                        variant='subtitle1'>
+                        Peparnas portal website</Typography>
+                    </figure>
 
                 </Grid>
             </Grid>
