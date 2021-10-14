@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/bodybody123.github.io/cv-wulangd/static/css/main.d354cd8b.chunk.css",
-    "main.js": "/bodybody123.github.io/cv-wulangd/static/js/main.6e2c219e.chunk.js",
-    "main.js.map": "/bodybody123.github.io/cv-wulangd/static/js/main.6e2c219e.chunk.js.map",
-    "runtime-main.js": "/bodybody123.github.io/cv-wulangd/static/js/runtime-main.77b1ab4f.js",
-    "runtime-main.js.map": "/bodybody123.github.io/cv-wulangd/static/js/runtime-main.77b1ab4f.js.map",
-    "static/js/2.56eca10d.chunk.js": "/bodybody123.github.io/cv-wulangd/static/js/2.56eca10d.chunk.js",
-    "static/js/2.56eca10d.chunk.js.map": "/bodybody123.github.io/cv-wulangd/static/js/2.56eca10d.chunk.js.map",
-    "static/js/3.d64de1e4.chunk.js": "/bodybody123.github.io/cv-wulangd/static/js/3.d64de1e4.chunk.js",
-    "static/js/3.d64de1e4.chunk.js.map": "/bodybody123.github.io/cv-wulangd/static/js/3.d64de1e4.chunk.js.map",
-    "index.html": "/bodybody123.github.io/cv-wulangd/index.html",
-    "static/css/main.d354cd8b.chunk.css.map": "/bodybody123.github.io/cv-wulangd/static/css/main.d354cd8b.chunk.css.map",
-    "static/js/2.56eca10d.chunk.js.LICENSE.txt": "/bodybody123.github.io/cv-wulangd/static/js/2.56eca10d.chunk.js.LICENSE.txt",
-    "static/media/index.css": "/bodybody123.github.io/cv-wulangd/static/media/paper-texture.b414252d.jpg"
+    "main.css": "/cv-wulangd/static/css/main.9ea561e8.chunk.css",
+    "main.js": "/cv-wulangd/static/js/main.0f0215e3.chunk.js",
+    "main.js.map": "/cv-wulangd/static/js/main.0f0215e3.chunk.js.map",
+    "runtime-main.js": "/cv-wulangd/static/js/runtime-main.28dc8ac0.js",
+    "runtime-main.js.map": "/cv-wulangd/static/js/runtime-main.28dc8ac0.js.map",
+    "static/js/2.56eca10d.chunk.js": "/cv-wulangd/static/js/2.56eca10d.chunk.js",
+    "static/js/2.56eca10d.chunk.js.map": "/cv-wulangd/static/js/2.56eca10d.chunk.js.map",
+    "static/js/3.d64de1e4.chunk.js": "/cv-wulangd/static/js/3.d64de1e4.chunk.js",
+    "static/js/3.d64de1e4.chunk.js.map": "/cv-wulangd/static/js/3.d64de1e4.chunk.js.map",
+    "index.html": "/cv-wulangd/index.html",
+    "static/css/main.9ea561e8.chunk.css.map": "/cv-wulangd/static/css/main.9ea561e8.chunk.css.map",
+    "static/js/2.56eca10d.chunk.js.LICENSE.txt": "/cv-wulangd/static/js/2.56eca10d.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/cv-wulangd/static/media/paper-texture.b414252d.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.77b1ab4f.js",
+    "static/js/runtime-main.28dc8ac0.js",
     "static/js/2.56eca10d.chunk.js",
-    "static/css/main.d354cd8b.chunk.css",
-    "static/js/main.6e2c219e.chunk.js"
+    "static/css/main.9ea561e8.chunk.css",
+    "static/js/main.0f0215e3.chunk.js"
   ]
 }
